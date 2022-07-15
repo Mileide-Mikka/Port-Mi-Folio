@@ -1,5 +1,45 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#title {
+    color: white;
+    text-align: center;
+}
+.navagation {
+text-align: center;
+}
+.navagation ul li{
+    display: inline-flex;
+    padding: 5px 15px;
+}
+
+.navagation ul li a {
+    text-decoration: none;
+    color: white;    
+}
+
+main #section-home {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-align: right;
+    border: 1px solid white;
+    width: 100%;
+    color: white;
+}
+
+main #section-home img {
+    width: 50%;
+    position: relative;
+    
+    float: left;
 }
