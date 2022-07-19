@@ -6,13 +6,14 @@
 
 body {
     background-color: black;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Serif', serif;
 
 }
 
 #title {
-    color: white;
+    color: purple;
     text-align: center;
+    font-weight: 700;
 }
 .navagation {
 text-align: center;
@@ -27,19 +28,30 @@ text-align: center;
     color: white;    
 }
 
-main #section-home {
+main #home {
+    margin-top: 2rem;
     position: absolute;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    text-align: right;
-    border: 1px solid white;
-    width: 100%;
+    width: 100vw;
     color: white;
+    border: 1px solid white;
 }
 
-main #section-home img {
-    width: 50%;
+main #home img {
+    width: 40%;
     position: relative;
-    
     float: left;
+}
+
+.introdution-title {
+    padding: 1.5rem 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.introdution-sub-title {
+    padding: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
 }
