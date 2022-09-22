@@ -7,28 +7,27 @@
 body {
     display: flex;
     flex-direction: column;
-    
     background-color: white;
     font-family: 'Noto Serif', serif;
 }
 
-#title, h3{
+#title{
     color: purple;
     text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
 }
 
 #home{
     position: relative;
     display: flex;
     justify-content: center;
-    max-height: max-content;
+    align-content: center;
 }
 
-
 #IMG-hero {
-    display: flex;
-    width: 70%;
+    display: inline-flex;
+    width: auto;
+    height: auto;
 }
 
 .navagation{
@@ -37,13 +36,13 @@ body {
 
 .navagation li {
     display: inline-block;
-    margin: 0 0 0 15px;   
+    margin: 0 15px;   
 }
 .navagation a {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
-    text-align: center;
+
 }
 
